@@ -1,0 +1,16 @@
+
+    $color: #652833;
+    $font-family:   
+
+@mixin cajasFlexibles (){
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: space-around;
+}   
+@mixin carFuente ($family, $size, $color, $height){
+    font-family: $family;
+    font-size: $size;
+    color:$color;
+    line-height: $height;
+}

@@ -1,0 +1,147 @@
+/*# sourceMappingURL=index.css.map */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .nav {
+    margin-left: 100px;
+  }
+  .headerMain {
+    background-color: black;
+  }
+  .ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: right;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .h2 {
+    font-weight: 700;
+    background-color: blue;
+  }
+  .menu {
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-left: 800px;
+  }
+  .img-logo {
+    width: 150px;
+    padding: 10px;
+  }
+  .img-log1 {
+    width: 100px;
+  }
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .menu :hover {
+    color: limegreen;
+  }
+  .mes {
+    height: 20%;
+    margin-left: 5%;
+  }
+  .despues {
+    height: 20%;
+    margin-left: 5%;
+  }
+  button {
+    margin-left: 5%;
+    padding: 1.2%;
+    background-color: black;
+    color: white;
+  }
+  .articles {
+    width: 25%;
+    text-align: center;
+  }
+  .music {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px;
+    justify-content: center
+  }
+  .title-premium {
+    text-align: center;
+    padding: 30px;
+  }
+  .gratis {
+    height: 300px;
+    background-color: #1d75de;
+    color: aliceblue;
+    padding-top: 60px;
+  }
+  .elige {
+    text-align: center;
+  }
+  .tarjetas {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media (max-width: 680px) {
+    .music {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  @media (max-width: 480px) {
+    .menu {
+      display: none;
+    }
+  }
+  .new {
+    list-style-type: none;
+  }
+  .unMes {
+    background-color: #1d75de;
+  }
+  p.mes {
+    background-color: #1d75de;
+    width: 100px;
+    height: 30px;
+    color: white;
+  }
+  .planes {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 13px;
+    margin-left: 1%;
+    width: 20%;
+    justify-content: center;
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 20px;
+    line-height: 25px;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .lista{
+    list-style: none;
+  }
+  @media (max-width: 480px){
+    .menu{
+        display: none;
+    }
+    .premium-section{
+        flex-direction: column;
+    }
+    .premium-section article{
+        display: flex;
+        width:100% ;
+        align-items: center;
+        gap: 10px;
+    }
+}
+@media (min-width: 481px){
+    .menuBur{
+        display: none;
+    }
+}
